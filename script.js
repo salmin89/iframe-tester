@@ -1,3 +1,2 @@
 const params = new URLSearchParams(window.location.search)
-
-console.log(params)
+document.body.innerText = params.get('text');
